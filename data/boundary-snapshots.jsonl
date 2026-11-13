@@ -1,0 +1,2 @@
+{"deletions": ["d1"], "files": ["f1"], "id": "old", "schema": "s1"}
+{"deletions": [], "files": ["f2"], "id": "new", "schema": "s1"}

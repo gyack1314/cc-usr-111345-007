@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "tables": {
+    "snapshots": {
+      "file": "boundary-snapshots.jsonl",
+      "sha256": "a2626417e1a42f69af0cdb14f3e55b5bbb8996f7eaba2db9c7b1295eee445020",
+      "bytes": 132,
+      "rows": 2,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ]
+    },
+    "file_rows": {
+      "file": "boundary-file_rows.jsonl",
+      "sha256": "f9e9fe3b8778900417e8d8acb3fa7fcf9e8c98cb7a234d065740c60ab0eeef0d",
+      "bytes": 280,
+      "rows": 4,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ]
+    },
+    "deletes": {
+      "file": "boundary-deletes.jsonl",
+      "sha256": "b45a99816201bf253518fb2dbbae16fb182f09249e0a11fe4a924046d124b10c",
+      "bytes": 48,
+      "rows": 1,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ]
+    },
+    "schema": {
+      "file": "boundary-schema.jsonl",
+      "sha256": "8c7a6d60195ffeb2db32e1e45a319b89a42cc35d0c522a87227dd1f125a15aef",
+      "bytes": 92,
+      "rows": 1,
+      "fields": [
+        "id",
+        "fields"
+      ]
+    }
+  }
+}
