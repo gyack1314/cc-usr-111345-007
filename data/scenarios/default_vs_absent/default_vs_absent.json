@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "tables": {
+    "deletes": {
+      "bytes": 0,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ],
+      "file": "default_vs_absent-deletes.jsonl",
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "file_rows": {
+      "bytes": 411,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ],
+      "file": "default_vs_absent-file_rows.jsonl",
+      "optional": [
+        "cost"
+      ],
+      "rows": 7,
+      "sha256": "e21f3ffa68dcd4a5778714521c7f8a6cfd4be88dca10a8af4a53c8639278ba40"
+    },
+    "schema": {
+      "bytes": 82,
+      "fields": [
+        "id",
+        "fields"
+      ],
+      "file": "default_vs_absent-schema.jsonl",
+      "rows": 1,
+      "sha256": "57b5af50cc09849334c9e53c50b751fc0fedce5399a38fe15a5eba5efefaf769"
+    },
+    "snapshots": {
+      "bytes": 114,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ],
+      "file": "default_vs_absent-snapshots.jsonl",
+      "rows": 2,
+      "sha256": "845aebd084e38423bed5bcd7d64cb93a3d489c20ad6ba3faa8f87aa703d08b69"
+    }
+  }
+}

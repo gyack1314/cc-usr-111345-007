@@ -1,0 +1,2 @@
+{"fields":[{"default":null,"field_id":1,"kind":"int64","name":"cost"}],"id":"s1"}
+{"fields":[{"default":null,"field_id":1,"kind":"int64","name":"cost"},{"default":0,"field_id":2,"kind":"int64","name":"amount"}],"id":"s2"}

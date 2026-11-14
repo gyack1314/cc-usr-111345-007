@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "tables": {
+    "deletes": {
+      "bytes": 0,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ],
+      "file": "pure_compaction-deletes.jsonl",
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "file_rows": {
+      "bytes": 366,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ],
+      "file": "pure_compaction-file_rows.jsonl",
+      "optional": [
+        "cost"
+      ],
+      "rows": 6,
+      "sha256": "ff46b80f351fc843c5e730db439b4dddf4a3983b62d8f95154cb76769dc96c0f"
+    },
+    "schema": {
+      "bytes": 82,
+      "fields": [
+        "id",
+        "fields"
+      ],
+      "file": "pure_compaction-schema.jsonl",
+      "rows": 1,
+      "sha256": "57b5af50cc09849334c9e53c50b751fc0fedce5399a38fe15a5eba5efefaf769"
+    },
+    "snapshots": {
+      "bytes": 114,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ],
+      "file": "pure_compaction-snapshots.jsonl",
+      "rows": 2,
+      "sha256": "845aebd084e38423bed5bcd7d64cb93a3d489c20ad6ba3faa8f87aa703d08b69"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "tables": {
+    "deletes": {
+      "bytes": 40,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ],
+      "file": "same_id_update-deletes.jsonl",
+      "rows": 1,
+      "sha256": "77a9ff20890361310c28851c2272eef2bc1a6881ce4c0da754672b36dc3bd114"
+    },
+    "file_rows": {
+      "bytes": 244,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ],
+      "file": "same_id_update-file_rows.jsonl",
+      "optional": [
+        "cost"
+      ],
+      "rows": 4,
+      "sha256": "05b85f39fd1977c9d72020a663403aae19be8499aa693e35072361e51fbb746b"
+    },
+    "schema": {
+      "bytes": 82,
+      "fields": [
+        "id",
+        "fields"
+      ],
+      "file": "same_id_update-schema.jsonl",
+      "rows": 1,
+      "sha256": "57b5af50cc09849334c9e53c50b751fc0fedce5399a38fe15a5eba5efefaf769"
+    },
+    "snapshots": {
+      "bytes": 118,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ],
+      "file": "same_id_update-snapshots.jsonl",
+      "rows": 2,
+      "sha256": "57652a3f8d35414355686f14b2ab31a9685a7a8321c2171fb343309a9cf399da"
+    }
+  }
+}

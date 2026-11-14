@@ -1,0 +1,7 @@
+{"cost":null,"file":"f1","id":"p1","position":0,"row_id":"r1"}
+{"file":"f1","id":"p2","position":1,"row_id":"r2"}
+{"cost":40,"file":"f1","id":"p3","position":2,"row_id":"r4"}
+{"file":"f2","id":"p4","position":0,"row_id":"r1"}
+{"cost":null,"file":"f2","id":"p5","position":1,"row_id":"r2"}
+{"cost":30,"file":"f2","id":"p6","position":2,"row_id":"r3"}
+{"cost":40,"file":"f2","id":"p7","position":3,"row_id":"r4"}

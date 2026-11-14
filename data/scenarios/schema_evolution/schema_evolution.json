@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "tables": {
+    "deletes": {
+      "bytes": 0,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ],
+      "file": "schema_evolution-deletes.jsonl",
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "file_rows": {
+      "bytes": 244,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ],
+      "file": "schema_evolution-file_rows.jsonl",
+      "optional": [
+        "cost"
+      ],
+      "rows": 4,
+      "sha256": "94de3b71da89878349abba4b38aafe2007d8939c57f3984dea9104232bd21f50"
+    },
+    "schema": {
+      "bytes": 222,
+      "fields": [
+        "id",
+        "fields"
+      ],
+      "file": "schema_evolution-schema.jsonl",
+      "rows": 2,
+      "sha256": "b0d3bbe17e78594d4e918b36cea5c8b475a2be03cfcc1bee7bad81171511f733"
+    },
+    "snapshots": {
+      "bytes": 114,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ],
+      "file": "schema_evolution-snapshots.jsonl",
+      "rows": 2,
+      "sha256": "eb9f10bf370c67eb44ce68c4a37d60f0696d33845ed88595bc1c2464b9125aca"
+    }
+  }
+}

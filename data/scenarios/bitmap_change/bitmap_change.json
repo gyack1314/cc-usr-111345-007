@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "tables": {
+    "deletes": {
+      "bytes": 40,
+      "fields": [
+        "id",
+        "file",
+        "positions"
+      ],
+      "file": "bitmap_change-deletes.jsonl",
+      "rows": 1,
+      "sha256": "77a9ff20890361310c28851c2272eef2bc1a6881ce4c0da754672b36dc3bd114"
+    },
+    "file_rows": {
+      "bytes": 183,
+      "fields": [
+        "id",
+        "file",
+        "position",
+        "row_id",
+        "cost"
+      ],
+      "file": "bitmap_change-file_rows.jsonl",
+      "optional": [
+        "cost"
+      ],
+      "rows": 3,
+      "sha256": "f080e48fdfcaf081b655c66d7db4c87b32a2307ae94a152f955a8f17b8c2af77"
+    },
+    "schema": {
+      "bytes": 82,
+      "fields": [
+        "id",
+        "fields"
+      ],
+      "file": "bitmap_change-schema.jsonl",
+      "rows": 1,
+      "sha256": "57b5af50cc09849334c9e53c50b751fc0fedce5399a38fe15a5eba5efefaf769"
+    },
+    "snapshots": {
+      "bytes": 118,
+      "fields": [
+        "id",
+        "files",
+        "deletions",
+        "schema"
+      ],
+      "file": "bitmap_change-snapshots.jsonl",
+      "rows": 2,
+      "sha256": "1f03ddb9cfbf9bc10a4e8c4a23cc6890f688609c76841cfa23919c98a3294071"
+    }
+  }
+}
